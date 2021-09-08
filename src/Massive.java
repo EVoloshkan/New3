@@ -4,6 +4,6 @@ public class Massive {
         int temp = a[0];
         a[0] = a[a.length - 1];
         a[a.length - 1] = temp;
-        System.out.println(a[0] + a[2]);
+        System.out.println(a[0] + (a[0] + a[a.length-1])/2);
     }
 }
